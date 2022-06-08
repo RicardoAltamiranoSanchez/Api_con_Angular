@@ -1,0 +1,10 @@
+<h1>Buscar</h1>
+    <input type="text"
+    id="btnBuscar"
+    class="form-control" 
+    placeholder="Buscar Imagenes"
+    (keyup.enter)="BuscarImagenes()"
+    #buscarTexto
+    >
+    <!-- #buscarTexto se pone para poder usar el ViewChild  -->
+     <!-- el keyup es para que nos muestre la tecla que se esta presionando y el .enter es para cuando se ejecute la tecla enter -->
